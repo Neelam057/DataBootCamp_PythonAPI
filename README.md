@@ -14,7 +14,7 @@ The **VacationPy** project leverages the weather data and uses the Geoapify API 
 - **Seaborn**: Used for advanced visualizations and statistical plots.
 - **SciPy**: For performing linear regression.
 - **Requests**: For making API requests to OpenWeatherMap and Geoapify.
-- **Folium**: For map visualizations.
+- **hvplot**: For map visualizations.
 - **Geoapify API**: Used to fetch nearby hotels based on coordinates.
 
 ## Part 1: WeatherPy
@@ -59,7 +59,7 @@ A map is created using the **hvplot** library in pandas, displaying each city's 
 
 The cities are filtered based on the following ideal weather conditions:
 
-Only cities that meet these conditions are selected for vacation recommendations.
+Only cities that meet required conditions are selected for vacation recommendations.
 
 ### 2.3 Geoapify API for Hotels
 
